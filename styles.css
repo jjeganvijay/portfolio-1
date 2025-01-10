@@ -127,17 +127,17 @@ button:hover, .button:hover {
 button:focus, .button:focus {
     outline: none;
 }
-/* Profile Image Styling */
+
 .profile-img {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px;
     height: 150px;
-    border-radius: 50%; /* This makes the image round */
+    border-radius: 50%;
     object-fit: cover; /* Ensures the image doesn't get distorted */
     border: 4px solid #fff; /* Optional: Adds a white border around the image */
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow for a nice effect */
 }
 .contact-icons .icon {
-    font-size: 3rem; /* Increased icon size */
+    font-size: 3rem; 
     color: #fff;
     background-color: #007bff;
     padding: 15px;
@@ -148,4 +148,20 @@ button:focus, .button:focus {
 .contact-icons .icon:hover {
     background-color: #0056b3;
     transform: scale(1.1);
+}
+
+body {
+    background-image: url('rednature.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    font-family: 'Poppins', sans-serif;
+    color: #fff; 
+}
+
+
+header, section, footer {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 8px; 
 }
