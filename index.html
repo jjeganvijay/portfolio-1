@@ -3,34 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A bold and stylish portfolio with a radiant red and black design.">
+    <meta name="description" content="A professional portfolio for Jegan Vijay J. showcasing projects, skills, and contact information.">
     <title>Jegan Vijay J. | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Jegan Vijay J.</h1>
-        <img src="vijay.jpg" alt="Jegan Vijay J. Profile" class="profile-img">
-
-        <nav>
-            <ul>
-                
-                <li><a href="projects.html" class="button">View My Work</a></li>
-                <li><a href="contact.html" class="button">Contact Me</a></li>
+    <header class="hero-section">
+        <nav class="navbar">
+            <h1 class="logo">Jegan Vijay J.</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="hero-content">
+            <div class="profile-container">
+                <img src="vijay.jpg" alt="Jegan Vijay J." class="profile-img">
+            </div>
+            <h2>Hello, I'm Jegan Vijay J.</h2>
+            <p>A creative web developer turning ideas into reality with modern design and clean code.</p>
+            <a href="#projects" class="cta">View My Work</a>
+        </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="section-with-background">
         <h2>About Me</h2>
         <p>
-            I am Jegan Vijay .J, a creative web developer with a passion for delivering exceptional digital experiences. My work blends modern design with efficient code to bring ideas to life.
+            I am a passionate web developer with expertise in building dynamic and responsive websites. 
+            My goal is to create digital experiences that are efficient, engaging, and innovative.
         </p>
     </section>
 
+    <section id="projects" class="section-with-background">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A sleek and modern portfolio showcasing my skills and work.</p>
+            </div>
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>A weather forecast app built with JavaScript and APIs.</p>
+            </div>
+            <div class="project">
+                <h3>E-Commerce Website</h3>
+                <p>A responsive e-commerce site with dynamic product listings.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-with-background">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="skill-bar">
+                    <span class="html-bar" style="width: 60%;">60%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="skill-bar">
+                    <span class="css-bar" style="width: 70%;">70%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="skill-bar">
+                    <span class="js-bar" style="width: 50%;">50%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-with-background">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
     <footer>
-        <p>© 2025 Jegan Vijay J. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>Designed & Built by Jegan Vijay J. | © 2025</p>
     </footer>
 </body>
 </html>
